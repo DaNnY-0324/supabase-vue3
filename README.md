@@ -1,46 +1,51 @@
-# supabase-vue3
+# Supabase Vue 3
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is a Vue 3 application integrated with Supabase.
 
-## Recommended IDE Setup
+## Table of Contents
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Type Support for `.vue` Imports in TS
+## Introduction
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+This project demonstrates how to use Supabase with a Vue 3 application. Supabase is an open-source Firebase alternative that provides backend services such as authentication, database, and storage.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## Features
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+- User authentication
+- Realtime database
+- File storage
+- Easy integration with Vue 3
 
-## Customize configuration
+## Installation
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+To get started, clone the repository and install the dependencies:
 
-## Project Setup
-
-```sh
+```bash
+git clone https://github.com/yourusername/supabase-vue3.git
+cd supabase-vue3
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## Usage
 
-```sh
-npm run dev
+To run the application, use the following command:
+
+```bash
+npm run serve
 ```
 
-### Type-Check, Compile and Minify for Production
+This will start the development server and you can view the application at `http://localhost:8080`.
 
-```sh
-npm run build
-```
+## Contributing
 
-### Lint with [ESLint](https://eslint.org/)
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-```sh
-npm run lint
-```
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
